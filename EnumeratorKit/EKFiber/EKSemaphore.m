@@ -58,7 +58,7 @@
 
 - (void)dealloc
 {
-    dispatch_release(_semaphore);
+    //dispatch_release(_semaphore);
 }
 
 @end
